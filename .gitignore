@@ -1,2 +1,9 @@
 .sdf
 .cache
+.obj
+.tlog
+.suo
+.exe
+.pdb
+.dll
+.winmd
