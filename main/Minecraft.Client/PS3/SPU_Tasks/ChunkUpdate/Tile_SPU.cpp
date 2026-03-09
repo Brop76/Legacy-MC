@@ -875,7 +875,7 @@ void Tile_SPU::initTilePointers()
 	CREATE_TILE_TYPE(hellRock_Id, Tile_SPU);		// HellStoneTile
 	CREATE_TILE_TYPE(hellSand_Id, Tile_SPU);		// HellSandTile
 	CREATE_TILE_TYPE(lightGem_Id, Tile_SPU);		// LightGemTile
-	CREATE_TILE_TYPE(aprilFoolsJoke_Id, Tile_SPU); // LockedChestTile
+	// CREATE_TILE_TYPE(aprilFoolsJoke_Id, Tile_SPU); // LockedChestTile
 
 	CREATE_TILE_TYPE(cloth_Id, ClothTile_SPU); // wool
 

@@ -52,7 +52,7 @@
 #include "LiquidTile.h"
 #include "LiquidTileDynamic.h"
 #include "LiquidTileStatic.h"
-#include "LockedChestTile.h"
+// #include "LockedChestTile.h"
 #include "MelonTile.h"
 #include "MetalTile.h"
 #include "MobSpawnerTile.h"
