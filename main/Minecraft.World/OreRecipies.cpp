@@ -46,6 +46,9 @@ void OreRecipies::_init()
 
 	ADD_OBJECT(map[4],Tile::lapisBlock);
 	ADD_OBJECT(map[4],new ItemInstance(Item::dye_powder, 9, DyePowderItem::BLUE));
+
+	//ADD_OBJECT(map[5],Tile::articfurBlock);
+	//ADD_OBJECT(map[5],new ItemInstance(Item::articfur, 9));
 }
 void OreRecipies::addRecipes(Recipes *r) 
 {

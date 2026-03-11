@@ -45,6 +45,7 @@ public:
 		eMaterial_chain, // 4J Stu - It's available in creative in 1.8
 		eMaterial_detector,
 		eMaterial_lapis,
+		//eMaterial_articfur,
 		eMaterial_music,
 		eMaterial_dye,
 		eMaterial_sand,

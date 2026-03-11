@@ -65,7 +65,7 @@ Tile *Tile::sponge = NULL;
 Tile *Tile::glass = NULL;
 Tile *Tile::lapisOre = NULL;
 Tile *Tile::lapisBlock = NULL;
-Tile *Tile::articfurBlock = NULL;
+//Tile *Tile::articfurBlock = NULL;
 Tile *Tile::dispenser = NULL;
 Tile *Tile::sandStone = NULL;
 Tile *Tile::musicBlock = NULL;
@@ -247,7 +247,7 @@ void Tile::staticCtor()
 	Tile::goldBlock = (new MetalTile(41))					->setBaseItemTypeAndMaterial(Item::eBaseItemType_block,	Item::eMaterial_gold)->setDestroyTime(3.0f)->setExplodeable(10)->setSoundType(Tile::SOUND_METAL)->setTextureName(L"blockGold")->setDescriptionId(IDS_TILE_BLOCK_GOLD)->setUseDescriptionId(IDS_DESC_BLOCK_GOLD);
 	Tile::ironBlock = (new MetalTile(42))					->setBaseItemTypeAndMaterial(Item::eBaseItemType_block,	Item::eMaterial_iron)->setDestroyTime(5.0f)->setExplodeable(10)->setSoundType(Tile::SOUND_METAL)->setTextureName(L"blockIron")->setDescriptionId(IDS_TILE_BLOCK_IRON)->setUseDescriptionId(IDS_DESC_BLOCK_IRON);
 	Tile::lapisBlock = (new Tile(22, Material::stone))		->setBaseItemTypeAndMaterial(Item::eBaseItemType_block,	Item::eMaterial_lapis)->setDestroyTime(3.0f)->setExplodeable(5)->setSoundType(Tile::SOUND_STONE)->setTextureName(L"blockLapis")->setDescriptionId(IDS_TILE_BLOCK_LAPIS)->setUseDescriptionId(IDS_DESC_BLOCK_LAPIS);
-	Tile::articfurBlock = (new Tile(22, Material::stone))		->setBaseItemTypeAndMaterial(Item::eBaseItemType_block,	Item::eMaterial_articfur)->setDestroyTime(3.0f)->setExplodeable(5)->setSoundType(Tile::SOUND_STONE)->setTextureName(L"blockArticfur")->setDescriptionId(IDS_TILE_BLOCK_ARTICFUR)->setUseDescriptionId(IDS_DESC_BLOCK_ARTICFUR);
+	//Tile::articfurBlock = (new Tile(22, Material::stone))		->setBaseItemTypeAndMaterial(Item::eBaseItemType_block,	Item::eMaterial_articfur)->setDestroyTime(3.0f)->setExplodeable(5)->setSoundType(Tile::SOUND_STONE)->setTextureName(L"blockArticfur")->setDescriptionId(IDS_TILE_BLOCK_ARTICFUR)->setUseDescriptionId(IDS_DESC_BLOCK_ARTICFUR);
 	Tile::musicBlock = (new MusicTile(25))					->setDestroyTime(0.8f)->setTextureName(L"musicBlock")->setDescriptionId(IDS_TILE_MUSIC_BLOCK)->sendTileData()->setUseDescriptionId(IDS_DESC_NOTEBLOCK);
 	Tile::diamondBlock = (new MetalTile(57))				->setBaseItemTypeAndMaterial(Item::eBaseItemType_block,	Item::eMaterial_diamond)->setDestroyTime(5.0f)->setExplodeable(10)->setSoundType(Tile::SOUND_METAL)->setTextureName(L"blockDiamond")->setDescriptionId(IDS_TILE_BLOCK_DIAMOND)->setUseDescriptionId(IDS_DESC_BLOCK_DIAMOND);
 
@@ -1506,7 +1506,7 @@ const int Tile::sponge_Id;
 const int Tile::glass_Id;
 const int Tile::lapisOre_Id;
 const int Tile::lapisBlock_Id;
-const int Tile::articfurBlock_Id;
+//const int Tile::articfurBlock_Id;
 const int Tile::dispenser_Id;
 const int Tile::sandStone_Id;
 const int Tile::musicBlock_Id;
