@@ -17,3 +17,4 @@
 *.dll
 *.ipch
 *.unsuccessfulbuild
+*.mcs

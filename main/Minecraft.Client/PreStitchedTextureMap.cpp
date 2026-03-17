@@ -514,7 +514,7 @@ void PreStitchedTextureMap::loadUVs()
 		texturesByName.insert(stringIconMap::value_type(L"skull_char",new SimpleIcon(L"skull_char",slotSize*3,slotSize*14,slotSize*(3+1),slotSize*(14+1))));
 		texturesByName.insert(stringIconMap::value_type(L"skull_creeper",new SimpleIcon(L"skull_creeper",slotSize*4,slotSize*14,slotSize*(4+1),slotSize*(14+1))));
 		texturesByName.insert(stringIconMap::value_type(L"dragonFireball",new SimpleIcon(L"dragonFireball",slotSize*15,slotSize*14,slotSize*(15+1),slotSize*(14+1))));
-		texturesByName.insert(stringIconMap::value_type(L"record_13",new SimpleIcon(L"record_13",slotSize*0,slotSize*15,slotSize*(0+1),slotSize*(15+1))));
+		//texturesByName.insert(stringIconMap::value_type(L"record_13",new SimpleIcon(L"record_13",slotSize*0,slotSize*15,slotSize*(0+1),slotSize*(15+1))));
 		texturesByName.insert(stringIconMap::value_type(L"record_cat",new SimpleIcon(L"record_cat",slotSize*1,slotSize*15,slotSize*(1+1),slotSize*(15+1))));
 		texturesByName.insert(stringIconMap::value_type(L"record_blocks",new SimpleIcon(L"record_blocks",slotSize*2,slotSize*15,slotSize*(2+1),slotSize*(15+1))));
 		texturesByName.insert(stringIconMap::value_type(L"record_chirp",new SimpleIcon(L"record_chirp",slotSize*3,slotSize*15,slotSize*(3+1),slotSize*(15+1))));
@@ -526,6 +526,7 @@ void PreStitchedTextureMap::loadUVs()
 		texturesByName.insert(stringIconMap::value_type(L"record_ward",new SimpleIcon(L"record_ward",slotSize*9,slotSize*15,slotSize*(9+1),slotSize*(15+1))));
 		texturesByName.insert(stringIconMap::value_type(L"record_11",new SimpleIcon(L"record_11",slotSize*10,slotSize*15,slotSize*(10+1),slotSize*(15+1))));
 		texturesByName.insert(stringIconMap::value_type(L"record_where are we now",new SimpleIcon(L"record_where are we now",slotSize*11,slotSize*15,slotSize*(11+1),slotSize*(15+1))));
+		//texturesByName.insert(stringIconMap::value_type(L"record_Prerogative",new SimpleIcon(L"record_Prerogative",slotSize*11,slotSize*15,slotSize*(11+1),slotSize*(15+1))));
 
 		// Special cases
 		ClockTexture *dataClock = new ClockTexture();

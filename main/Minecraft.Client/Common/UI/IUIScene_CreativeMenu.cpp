@@ -253,6 +253,7 @@ void IUIScene_CreativeMenu::staticCtor()
 		ITEM(Item::record_10_Id)
 		ITEM(Item::record_11_Id)
 		ITEM(Item::record_12_Id)
+		//ITEM(Item::record_13_Id)
 		ITEM_AUX(Item::monsterPlacer_Id, 50); // Creeper
 		ITEM_AUX(Item::monsterPlacer_Id, 51); // Skeleton
 		ITEM_AUX(Item::monsterPlacer_Id, 52); // Spider

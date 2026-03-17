@@ -359,6 +359,7 @@ public:
 	static Item *record_10;
 	static Item *record_11;
 	static Item *record_12;
+	//static Item *record_13;
 
 	// TU9
 	static Item *fireball;
@@ -546,6 +547,7 @@ public:
 	static const int record_10_Id		    = 2264;
 	static const int record_11_Id		    = 2265;
 	static const int record_12_Id			= 2266;
+	//static const int record_13_Id			= 2268; This doesnt work need to figure out how to fix this -Forsak
 
 	// 4J-PB - this one isn't playable in the PC game, but is fine in ours
 	static const int record_08_Id			= 2267;		
